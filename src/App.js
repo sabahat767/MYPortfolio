@@ -11,10 +11,12 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Navbar from './components/Navbar'
+import FormsUsingFormik from './components/FormsUsingFormik'
 
 function App() {
-  return (
+  return (            
     <>
+   {/* <FormsUsingFormik/> */}
     <Navbar/>
     </>
     // <div >

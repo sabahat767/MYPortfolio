@@ -16,6 +16,8 @@ import {
 import Home from '../components/Home';
 import AboutUs from '../components/AboutUs';
 import ContactUs from '../components/ContactUs';
+import PortfolioContact from '../components/PortfolioContact';
+
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
   
@@ -83,7 +85,7 @@ function Navbar() {
       <AboutUs/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <ContactUs/>
+      <PortfolioContact/>
       {/* <Link to='/ContactUs' style={{margin:2}}>ContactUs</Link>      */}
       </TabPanel>
         {/* <Switch>

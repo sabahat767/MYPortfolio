@@ -17,6 +17,8 @@ const useStyles = makeStyles({
   },
   bullet: {
     display: 'inline-block',
+    justifyContent:'center',
+
     margin: '0 2px',
     transform: 'scale(0.8)',
   },
